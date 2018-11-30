@@ -1,0 +1,208 @@
+/*whole website's font and background-color*/
+
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	background: #fff;
+}
+
+
+/*Link:Hover Effect*/
+
+body a {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+
+/*To make the main concent like page*/
+
+@media only screen and (min-width:460px) {
+	.main {
+		width: 90%;
+		margin: 0 auto;
+		background-color: #E8E8E8;
+		box-shadow: 0px 5px 22px -3px;
+		padding-top: 1px;
+	}
+}
+
+@media only screen and (max-width:460px) {
+	.main {
+		width: 94%;
+		margin: 0 auto;
+		background-color: #E8E8E8;
+		box-shadow: 0px 5px 22px -3px;
+		padding-top: 1px;
+	}
+}
+
+
+/*Navigation Botton*/
+
+button.navig {
+	width: 49px;
+	height: 49px;
+	background: url(../images/menu.png) no-repeat;
+	display: block;
+	outline: none;
+	border: 0;
+	float: left;
+	position: fixed;
+	top: 20px;
+	left: 5%;
+	z-index: 1;
+}
+
+
+/*LOGO*/
+
+.logo {
+	box-shadow: 1px 1px 4px 2px;
+	width: 72px;
+}
+
+
+/*audio botton*/
+
+.audioBtn {
+	position: fixed;
+	right: 6%;
+	top: 30px;
+	z-index: 1;
+}
+
+#music_btn {
+	font-size: 25px;
+}
+
+
+/*Banner--Huge Image*/
+
+.banner {
+	width: 100%;
+}
+
+
+/*Footer*/
+
+p.footer-class {
+	text-align: center;
+	padding: 4em 0 3em;
+	font-size: 1.1em;
+	color: #362f2f;
+}
+
+p.footer-class a {
+	text-decoration: none;
+	color: #c3a000;
+}
+
+p.footer-class a:hover {
+	color: #f16000;
+}
+
+
+/*Text style*/
+
+.text {
+	font-size: 20px;
+}
+
+p {
+	text-align: center;
+}
+
+
+/*Hidden element*/
+
+#down {
+	display: none;
+}
+
+#down2 {
+	display: none;
+}
+
+#down3 {
+	display: none;
+}
+
+
+/*Container Style*/
+
+.myRow {
+	padding: 15px 30px;
+}
+
+
+/*Images Style*/
+
+.img-style {
+	width: 100%;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 400px) {
+	.myImg {
+		width: 90%;
+	}
+}
+
+@media only screen and (min-width: 401px) and (max-width: 991px) {
+	.myImg {
+		width: 70%;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.myImg {
+		width: 90%;
+	}
+}
+
+
+/*Canvas Animation*/
+
+@media only screen and (max-width: 768px) {
+	.myCanvas {
+		position: absolute;
+		top: 130px;
+		width: 100%;
+	}
+	#canvas {
+		width: 250px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.myCanvas {
+		position: absolute;
+		top: 220px;
+		width: 100%;
+	}
+	#canvas {
+		width: 330px;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.myCanvas {
+		position: absolute;
+		top: 360px;
+		width: 100%;
+	}
+	#canvas {
+		width: 450px;
+	}
+}
+
+/*Botton color of Death.html*/
+.death {
+	color: #ffaf0c;
+}
